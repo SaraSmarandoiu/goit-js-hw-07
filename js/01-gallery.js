@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const image = document.createElement("img");
     image.classList.add("gallery__image");
     image.src = item.preview;
-    image.dataset.source = item.original; // Folosim dataset.source pentru a seta atributul data-source
+    image.dataset.source = item.original;
     image.alt = item.description;
 
     link.appendChild(image);
